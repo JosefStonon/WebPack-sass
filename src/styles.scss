@@ -1,7 +1,24 @@
 $color-font: #55f;
+$color-back: rgb(135, 230, 122);
+$color-back1: rgb(45, 63, 44);
 $font-default: Arial, helvetica, sans-serif;
 
 .title {
     color: $color-font;
     font-family: $font-default;
+}
+
+#root {
+    width: 100%;
+    background-color: $color-back;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        max-width: 50%;
+        background-color: $color-back1;
+
+        
+    }
+
 }
